@@ -34,7 +34,7 @@ Previously: research internship at the Harvard AI and Robotics Lab, applied AI e
 </picture>
 </p>
 
-I also arrange piano music: <a href="https://jeremymoebelsheetmusic.com"><img src="assets/sheetmusic-icon.svg" width="16" height="16" align="absmiddle" alt=""> jeremymoebelsheetmusic.com</a>
+I also arrange piano music: <a href="https://jeremymoebelsheetmusic.com"><img src="assets/sheetmusic-icon.svg" width="16" height="16" align="absmiddle" alt=""></a> <a href="https://jeremymoebelsheetmusic.com">jeremymoebelsheetmusic.com</a>
 
 <p>
 <picture>
