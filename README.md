@@ -1,32 +1,32 @@
-# Hey, I'm Jeremy 👋
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img alt="Jeremy Moebel" src="assets/banner-light.svg">
+</picture>
 
-**Engineering student @ École des Ponts et Chaussées, Paris**
+I'm an engineering student at École des Ponts and in the M2 Data Science at Institut Polytechnique de Paris. I work on computer vision and generative models.
 
-Building things with Swift, Python, and whatever gets the job done.
+Previously: research internship at the Harvard AI and Robotics Lab, applied AI engineering at Auditoo (Station F).
 
----
+### Research
 
-### Tech Stack
+- [Revision-Aware Independent Agent Graphs for Dynamic Reasoning](https://arxiv.org/abs/2610.01249) · arXiv 2026
+- [Rethinking One-Step Image Editing through ChordEdit: Reproduction, Simplification, and New Insights](https://arxiv.org/abs/2606.14042) · arXiv 2026
+- [VAGS: Velocity Adaptive Guidance Scale for Image Editing and Generation](https://arxiv.org/abs/2605.15661) · arXiv 2026
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=white)
+### Tools
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,pytorch,opencv,sklearn,docker,ts,swift,latex&theme=dark">
+  <img alt="Python, PyTorch, OpenCV, scikit-learn, Docker, TypeScript, Swift, LaTeX" src="https://skillicons.dev/icons?i=py,pytorch,opencv,sklearn,docker,ts,swift,latex&theme=light">
+</picture>
 
-### GitHub Stats
+<br><br>
 
-<p align="center">
-  <img src="./metrics.svg" />
-</p>
+I also arrange piano music: [jeremymoebelsheetmusic.com](https://jeremymoebelsheetmusic.com)
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=jeremymbl&theme=tokyonight&hide_border=true" />
-</p>
+<br>
 
----
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=jeremymbl&color=blueviolet&style=flat-square" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jeremymbl/jeremymbl/output/snake-dark.svg">
+  <img alt="Contribution graph eaten by a snake" src="https://raw.githubusercontent.com/jeremymbl/jeremymbl/output/snake-light.svg">
+</picture>
