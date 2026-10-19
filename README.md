@@ -1,7 +1,9 @@
+<p>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
   <img alt="Jeremy Moebel" src="assets/banner-light.svg">
 </picture>
+</p>
 
 I'm an engineering student at École des Ponts and in the M2 Data Science at Institut Polytechnique de Paris. I work on computer vision and generative models.
 
@@ -15,18 +17,18 @@ Previously: research internship at the Harvard AI and Robotics Lab, applied AI e
 
 ### Tools
 
+<p>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,pytorch,opencv,sklearn,docker,ts,swift,latex&theme=dark">
   <img alt="Python, PyTorch, OpenCV, scikit-learn, Docker, TypeScript, Swift, LaTeX" src="https://skillicons.dev/icons?i=py,pytorch,opencv,sklearn,docker,ts,swift,latex&theme=light">
 </picture>
-
-<br><br>
+</p>
 
 I also arrange piano music: [jeremymoebelsheetmusic.com](https://jeremymoebelsheetmusic.com)
 
-<br>
-
+<p>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jeremymbl/jeremymbl/output/snake-dark.svg">
   <img alt="Contribution graph eaten by a snake" src="https://raw.githubusercontent.com/jeremymbl/jeremymbl/output/snake-light.svg">
 </picture>
+</p>
