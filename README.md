@@ -19,8 +19,8 @@ Previously: research internship at the Harvard AI and Robotics Lab, applied AI e
 
 <p>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,pytorch,opencv,sklearn,docker,ts,swift,latex&theme=dark">
-  <img alt="Python, PyTorch, OpenCV, scikit-learn, Docker, TypeScript, Swift, LaTeX" src="https://skillicons.dev/icons?i=py,pytorch,opencv,sklearn,docker,ts,swift,latex&theme=light">
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py%2Cpytorch%2Copencv%2Csklearn%2Cdocker%2Cts%2Cswift%2Clatex&theme=dark">
+  <img alt="Python, PyTorch, OpenCV, scikit-learn, Docker, TypeScript, Swift, LaTeX" src="https://skillicons.dev/icons?i=py%2Cpytorch%2Copencv%2Csklearn%2Cdocker%2Cts%2Cswift%2Clatex&theme=light">
 </picture>
 </p>
 
