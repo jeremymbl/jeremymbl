@@ -2,10 +2,10 @@
 # requires-python = ">=3.11"
 # dependencies = ["fonttools>=4.50"]
 # ///
-"""Render the README banner as dark and light SVGs.
+"""Render the README banner and section headings as dark and light SVGs.
 
-Text is converted to outlines so the banner looks the same without the fonts installed.
-Run from the repo root: uv run scripts/banner.py
+Text is converted to outlines so it looks the same without the fonts installed.
+Run from the repo root: uv run scripts/render_assets.py
 """
 
 import math
@@ -19,6 +19,8 @@ from fontTools.ttLib import TTFont
 
 NAME = "Jeremy Moebel"
 SUBTITLE = "computer vision · generative models · ML engineering"
+HEADINGS = ["Research", "Tools"]
+HEADING_SIZE = 34
 
 FONTS = {
     "serif": "https://github.com/google/fonts/raw/main/ofl/instrumentserif/InstrumentSerif-Regular.ttf",
@@ -80,7 +82,7 @@ def pixel_field(theme: dict) -> list[str]:
     return rects
 
 
-def render(theme: dict) -> str:
+def render_banner(theme: dict) -> str:
     serif, mono = font("serif"), font("mono")
     return "\n".join([
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {WIDTH} {HEIGHT}" role="img" aria-label="{NAME}">',
@@ -96,9 +98,30 @@ def render(theme: dict) -> str:
     ])
 
 
+def render_heading(theme: dict, text: str) -> str:
+    """Heading sized to its own text, on a transparent background."""
+    serif = font("serif")
+    scale = HEADING_SIZE / serif["head"].unitsPerEm
+    ascent, descent = serif["hhea"].ascent * scale, -serif["hhea"].descent * scale
+    glyphs, cmap = serif.getGlyphSet(), serif.getBestCmap()
+    width = sum(glyphs[cmap[ord(c)]].width for c in text) * scale
+    w, h = math.ceil(width), math.ceil(ascent + descent)
+    return "\n".join([
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{text}">',
+        f'<path fill="{theme["fg"]}" d="{text_path(serif, text, 0, ascent, HEADING_SIZE)}"/>',
+        "</svg>",
+    ])
+
+
+def write(path: Path, svg: str) -> None:
+    path.write_text(svg + "\n")
+    print(f"wrote {path}")
+
+
 if __name__ == "__main__":
     out = Path("assets")
     out.mkdir(exist_ok=True)
     for mode, theme in THEMES.items():
-        (out / f"banner-{mode}.svg").write_text(render(theme) + "\n")
-        print(f"wrote {out / f'banner-{mode}.svg'}")
+        write(out / f"banner-{mode}.svg", render_banner(theme))
+        for text in HEADINGS:
+            write(out / f"h-{text.lower()}-{mode}.svg", render_heading(theme, text))

@@ -9,13 +9,23 @@ I'm an engineering student at École des Ponts and in the M2 Data Science at Ins
 
 Previously: research internship at the Harvard AI and Robotics Lab, applied AI engineering at Auditoo (Station F).
 
-### Research
+<h3>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-research-dark.svg">
+  <img alt="Research" src="assets/h-research-light.svg">
+</picture>
+</h3>
 
-- [Revision-Aware Independent Agent Graphs for Dynamic Reasoning](https://arxiv.org/abs/2610.01249) · arXiv 2026
-- [Rethinking One-Step Image Editing through ChordEdit: Reproduction, Simplification, and New Insights](https://arxiv.org/abs/2606.14042) · arXiv 2026
-- [VAGS: Velocity Adaptive Guidance Scale for Image Editing and Generation](https://arxiv.org/abs/2605.15661) · arXiv 2026
+- Revision-Aware Independent Agent Graphs for Dynamic Reasoning · [arXiv](https://arxiv.org/abs/2610.01249)
+- Rethinking One-Step Image Editing through ChordEdit: Reproduction, Simplification, and New Insights · [arXiv](https://arxiv.org/abs/2606.14042)
+- VAGS: Velocity Adaptive Guidance Scale for Image Editing and Generation · [arXiv](https://arxiv.org/abs/2605.15661)
 
-### Tools
+<h3>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-tools-dark.svg">
+  <img alt="Tools" src="assets/h-tools-light.svg">
+</picture>
+</h3>
 
 <p>
 <picture>
@@ -24,7 +34,7 @@ Previously: research internship at the Harvard AI and Robotics Lab, applied AI e
 </picture>
 </p>
 
-I also arrange piano music: [jeremymoebelsheetmusic.com](https://jeremymoebelsheetmusic.com)
+I also arrange piano music: <a href="https://jeremymoebelsheetmusic.com"><img src="assets/sheetmusic-icon.svg" width="16" height="16" align="absmiddle" alt=""> jeremymoebelsheetmusic.com</a>
 
 <p>
 <picture>
