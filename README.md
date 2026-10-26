@@ -9,6 +9,8 @@ I'm an engineering student at École des Ponts and in the M2 Data Science at Ins
 
 Previously: research internship at the Harvard AI and Robotics Lab, applied AI engineering at Auditoo (Station F).
 
+More about my work: [jeremymoebel.com](https://jeremymoebel.com)
+
 <h3>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/h-research-dark.svg">
